@@ -236,20 +236,6 @@ SPACE_SIZE         = 10.0    # 2D spatial field dimensions
 ALPHA              = 0.5     # Preferential attachment weight
 BETA               = 0.5     # Spatial proximity weight
 SNAPSHOT_STEPS     = [0,5,10,20]  # Steps to save graph snapshots
-```
-
----
-
-## 🔭 Future Scope
-
-- **3D Spatial Field** — Extend from 2D to 3D space for more realistic cortical layer simulation
-- **Synaptic Pruning** — Add pruning rules to simulate developmental refinement after peak growth
-- **Temporal GNN** — Use dynamic graph networks to model the connectome as a time-evolving structure
-- **Real Data Validation** — Compare simulated topology with the *C. elegans* connectome (302 neurons)
-- **Larger Scale** — Scale to 1000+ neurons with GPU-accelerated sparse graph operations
-- **Napari Integration** — Interactive 3D connectome viewer with time scrubbing across growth steps
 
 
----
-
-> *"Complex neural architecture emerges from simple developmental rules — just as in nature."*
+> *"Complex neural architecture emerges from simple developmental rules — just as in nature."
